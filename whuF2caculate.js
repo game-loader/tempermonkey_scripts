@@ -123,7 +123,10 @@
             item && items[item].kcxzmc && items[item].kcxzmc.includes("选修")
           );
         });
-
+        // Create a label above the elective list
+        var electiveListLabel = document.createElement("p");
+        electiveListLabel.textContent = "请选择计入必修的选修课";
+        container.appendChild(electiveListLabel);
         // Display these items in a list with checkboxes
         var electiveList = document.createElement("ul");
         electiveList.style.listStyleType = "none";
