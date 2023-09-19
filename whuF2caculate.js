@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         武大综测F2年度计算小工具
 // @namespace    whu
-// @version      1.2
+// @version      1.1
 // @author       game-loader
 // @description  计算武大综测F2部分
 // @homepage     https://github.com/game-loader
